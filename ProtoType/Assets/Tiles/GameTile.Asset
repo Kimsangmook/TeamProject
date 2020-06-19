@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: GameTile
   m_EditorClassIdentifier: Assembly-CSharp::GameTile
-  m_Sprite: {fileID: 21300058, guid: da9d6752771285a40a1b383e61336090, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300086, guid: da9d6752771285a40a1b383e61336090, type: 3}
+  m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
   m_Transform:
     e00: 1
     e01: 0
