@@ -34,6 +34,11 @@ public class User : GameManagerFlowHandler
             Debug.Log(gameObject.name + " 유저가 패배하였습니다.");
             GameManager.mInstance.QuitGame();
         }
+        foreach (var unit in units)
+        {
+            if (unit.status.orderUnit)
+                turnOfNoOrderUnit = 0;
+        }
     }
 
     public void SightUpdate()
