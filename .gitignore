@@ -44,6 +44,7 @@ ExportedObj/
 *.VC.db
 
 # Unity3D generated meta files
+
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
@@ -58,3 +59,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+[user]
+	name = Stuart P. Bentley
+	email = s@stuartpb.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
