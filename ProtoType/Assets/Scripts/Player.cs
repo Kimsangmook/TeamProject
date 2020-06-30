@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField]
-    private float speed;
+    private float speed=8;
     private Vector2 direction;
     private Vector3 min, max;
 

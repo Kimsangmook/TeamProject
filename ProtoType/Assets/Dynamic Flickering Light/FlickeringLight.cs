@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+#pragma warning disable 0108
 #if UNITY_EDITOR
 using UnityEditor;
 #endif

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿#pragma warning disable 0649
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -6,7 +8,6 @@ using UnityEngine.Tilemaps;
 public class NewBehaviourScript : MonoBehaviour
 {
     private Transform target;
-
     float xMax, xMin, yMax, yMin;
 
     [SerializeField]
