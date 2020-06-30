@@ -13,8 +13,7 @@ public class GameTile : Tile
     public static void CreateGameTile()
     {
         string path = EditorUtility.SaveFilePanelInProject("Save Game Tile", "New Game Tile", "Asset", "Save Game Tile", "Assets");
-        if (path == "")
-            return;
+      
         AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<GameTile>(), path);
     }
     #endif
